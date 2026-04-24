@@ -51,8 +51,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#footer">Login</a>
+                <li class="nav-item" id="va-auth-slot">
+                  <a class="nav-link" href="login.html">Login</a>
                 </li>
               </ul>
 
@@ -634,6 +634,10 @@ sama alarish            </h5>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/auth.js"></script>
+  <script>
+    window.VAAuth && window.VAAuth.initNavbarAuth && window.VAAuth.initNavbarAuth();
+  </script>
 </body>
 
 </html>

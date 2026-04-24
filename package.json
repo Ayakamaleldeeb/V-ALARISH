@@ -1,0 +1,12 @@
+{
+  "name": "v-alarish",
+  "version": "1.0.0",
+  "private": true,
+  "description": "V-Alarish static site + simple auth server (no Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
+
